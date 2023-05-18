@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Btn, Item, Text } from './ContactItem.styled';
+
 export const ContactItem = ({ name, number, id, onDelete }) => {
   return (
     <Item>
